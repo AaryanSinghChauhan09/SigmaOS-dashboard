@@ -3,12 +3,12 @@ name = "SigmaOS-dashboard"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "dashboard component"
+description = "Part of SigmaOS architecture: SigmaOS-dashboard"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
